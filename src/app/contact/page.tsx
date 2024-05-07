@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/card";
 
 export default function Contact() {
+  const date = new Date();
   return (
     <>
       <div
@@ -45,12 +46,13 @@ export default function Contact() {
         </a>
             </CardHeader>
             <CardFooter className="flex justify-center items-center space-x-3">
-              <IoLogoGithub />
-              <FaLinkedin />
-              <FaFacebook />
-              <FaInstagram />
-              <MdEmail />
+              <a href="https://github.com/Sreyasree-001" target="blank" title="gitHub"><IoLogoGithub /></a>
+              <a href="https://www.linkedin.com/in/sreyasree-sasmal-a5274324b/" target="blank" title="linkedin"><FaLinkedin /></a>
+              <a href="https://www.facebook.com/profile.php?id=100087570413361" target="blank" title="facebook"><FaFacebook /></a>
+              <a href="https://www.instagram.com/_meteoric_melody_01/" target="blank" title="instagram"><FaInstagram /></a>
+              <a href="mailto:sreyasree202@gmail.com" title="email"><MdEmail /></a>
             </CardFooter>
+            <p className="text-gray-500 font-light self-center text-center">© Copyright {date.getFullYear()} All rights reserved</p>
           </Card>
         </div>
       </div>

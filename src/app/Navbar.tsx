@@ -14,9 +14,9 @@ export default function Navbar() {
                 <li>
                   <a
                     href="/"
-                    aria-label="Our product"
-                    title="Our product"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                    aria-label="Home"
+                    title="Home"
+                    className="font-mediumtracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
                   >
                     Home
                   </a>
@@ -24,9 +24,9 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#about"
-                    aria-label="Our product"
-                    title="Our product"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                    aria-label="About"
+                    title="About"
+                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
                   >
                     About
                   </a>
@@ -34,9 +34,9 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#projects"
-                    aria-label="Product pricing"
-                    title="Product pricing"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                    aria-label="View projects"
+                    title="View projects"
+                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
                   >
                     Projects
                   </a>
@@ -44,9 +44,9 @@ export default function Navbar() {
                 <li>
                   <a
                     href="#contacts"
-                    aria-label="About us"
-                    title="About us"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                    aria-label="Contact me"
+                    title="Contact me"
+                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
                   >
                     Contact
                   </a>
@@ -104,8 +104,8 @@ export default function Navbar() {
                         <li>
                           <a
                             href="/"
-                            aria-label="Our product"
-                            title="Our product"
+                            aria-label="Home"
+                            title="Home"
                             className="font-medium tracking-wide text-white  transition-colors duration-200 hover:text-deep-purple-accent-400"
                             onClick={() => setIsMenuOpen(false)}
                           >
@@ -115,8 +115,8 @@ export default function Navbar() {
                         <li>
                           <a
                             href="#about"
-                            aria-label="Our product"
-                            title="Our product"
+                            aria-label="About"
+                            title="About"
                             className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                             onClick={() => setIsMenuOpen(false)}
                           >
@@ -126,8 +126,8 @@ export default function Navbar() {
                         <li>
                           <a
                             href="#projects"
-                            aria-label="Product pricing"
-                            title="Product pricing"
+                            aria-label="View projects"
+                            title="View projects"
                             className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                             onClick={() => setIsMenuOpen(false)}
                           >
@@ -137,8 +137,8 @@ export default function Navbar() {
                         <li>
                           <a
                             href="#contacts"
-                            aria-label="About us"
-                            title="About us"
+                            aria-label="Contact me"
+                            title="Contact me"
                             className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                             onClick={() => setIsMenuOpen(false)}
                           >

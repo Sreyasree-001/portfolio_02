@@ -7,12 +7,12 @@ export const Header = () => {
     <div className="relative">
       {/**<img
           src=""
-          className="absolute inset-0 object-cover w-full h-full"
+          className="absolute inset-0 object-cover w-full h-full #6E366E"
           alt=""
         />0000 */}
       <div className="relative bg-opacity-75 bg-purple-700 bg-transparent">
         <svg
-          className="absolute inset-x-0 bottom-0 text-[#6E366E]"
+          className="absolute inset-x-0 bottom-0 text-blue-900"
           viewBox="0 0 1160 163"
         >
           <path
@@ -26,13 +26,13 @@ export const Header = () => {
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 ">
               
               <h2
-                className="max-w-lg mb-6 text-3xl font-light roboto-mono
-                  text-white sm:text-4xl sm:leading-none "
+                className="max-w-lg mb-6 text-2xl font-light roboto-mono
+                  text-white sm:text-3xl sm:leading-none "
               >
                 Hello! everyone,
                 <br className="hidden md:block" />
-                <span className="font-light roboto-mono">I'm </span>
-                <span className="text-purple-500 font-bold ">
+                <span className="font-light uppercase">I'm </span>
+                <span className="text-sky-500 font-bold uppercase">
                   Sreyasree Sasmal
                 </span>
               </h2>
@@ -45,16 +45,18 @@ export const Header = () => {
               </p>
               
               <div className="flex flex-col w-32 self-center mt-24 space-y-2 lg:flex-row lg:mt-2 lg:space-x-3">
+                <a href="cv.pdf" download="cv1">
                 <Button
                   variant="ghost"
                   className="bg-transparent text-white border-gray-600 border-2 hover:bg-violet-300"
                 >
-                  Download CV {"=>"}
+                  Download CV 
                 </Button>
+                </a>
               </div>
             </div>
             <div className="w-full max-w-xl sm:px-2 sm:w-6/12 xl:px-8 xl:w-5/12">
-              <div className="bg-purple-300 shadow-2xl rounded-full sm:p-10">
+              <div className="bg-sky-300 shadow-2xl rounded-full sm:p-10">
                 <img src="./image4.png" className="w-full h-full mb-2 " alt="" />
               </div>
             </div>
