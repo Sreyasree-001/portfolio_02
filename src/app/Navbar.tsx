@@ -13,10 +13,10 @@ export default function Navbar() {
               <ul className="flex items-center hidden space-x-20 lg:flex">
                 <li>
                   <a
-                    href="/"
+                    href="#header"
                     aria-label="Home"
                     title="Home"
-                    className="font-mediumtracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
+                    className="font-mediumtracking-wide text-purple-400 transition-colors duration-200 hover:text-teal-accent-400 hover:text-white"
                   >
                     Home
                   </a>
@@ -26,7 +26,7 @@ export default function Navbar() {
                     href="#about"
                     aria-label="About"
                     title="About"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
+                    className="font-medium tracking-wide text-purple-400 transition-colors duration-200 hover:text-teal-accent-400 hover:text-white"
                   >
                     About
                   </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
                     href="#projects"
                     aria-label="View projects"
                     title="View projects"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
+                    className="font-medium tracking-wide text-purple-400 transition-colors duration-200 hover:text-teal-accent-400 hover:text-white"
                   >
                     Projects
                   </a>
@@ -46,7 +46,7 @@ export default function Navbar() {
                     href="#contacts"
                     aria-label="Contact me"
                     title="Contact me"
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:text-sky-500"
+                    className="font-medium tracking-wide text-purple-400 transition-colors duration-200 hover:text-teal-accent-400 hover:text-white"
                   >
                     Contact
                   </a>

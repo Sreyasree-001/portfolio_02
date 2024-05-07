@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <div className="w-full h-screen max-h-fit bg-black flex flex-col overflow-scroll overflow-x-hidden">
         <Navbar/>
-        <div className="my-10">
+        <div className="my-10" id="header">
         <Header />
         </div>
         <div id="about" className="w-full self-center flex justify-center items-center mt-16 sm:w-2/3">

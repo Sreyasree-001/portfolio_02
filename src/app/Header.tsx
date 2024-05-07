@@ -12,7 +12,7 @@ export const Header = () => {
         />0000 */}
       <div className="relative bg-opacity-75 bg-purple-700 bg-transparent">
         <svg
-          className="absolute inset-x-0 bottom-0 text-blue-900"
+          className="absolute inset-x-0 bottom-0 text-black"
           viewBox="0 0 1160 163"
         >
           <path
@@ -26,13 +26,13 @@ export const Header = () => {
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 ">
               
               <h2
-                className="max-w-lg mb-6 text-2xl font-light roboto-mono
+                className="max-w-lg mb-6 text-2xl font-light
                   text-white sm:text-3xl sm:leading-none "
               >
-                Hello! everyone,
+                <p className="mb-2 uppercase text-xl">Hello! everyone</p>
                 <br className="hidden md:block" />
                 <span className="font-light uppercase">I'm </span>
-                <span className="text-sky-500 font-bold uppercase">
+                <span className="text-purple-500 font-bold uppercase">
                   Sreyasree Sasmal
                 </span>
               </h2>
@@ -56,7 +56,7 @@ export const Header = () => {
               </div>
             </div>
             <div className="w-full max-w-xl sm:px-2 sm:w-6/12 xl:px-8 xl:w-5/12">
-              <div className="bg-sky-300 shadow-2xl rounded-full sm:p-10">
+              <div className="bg-purple-300 shadow-2xl rounded-full sm:p-10">
                 <img src="./image4.png" className="w-full h-full mb-2 " alt="" />
               </div>
             </div>

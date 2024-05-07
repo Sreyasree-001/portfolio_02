@@ -44,12 +44,12 @@ export default function Content() {
                 <div className="p-1">
                   <ul>
                     <a href={item.link} target="blank">
-                      <Card className="bg-slate-800 bg-transparent 
-                      flex flex-col justify-center items-center border-none shadow-md shadow-emerald-700
-                      hover:scale-95 hover:shadow-lg hover:shadow-emerald-400
+                      <Card className="bg-slate-800 bg-transparent max-h-96 overflow-scroll
+                      flex flex-col justify-center items-center border-none shadow-md shadow-blue-700
+                      hover:scale-95 hover:shadow-lg hover:shadow-blue-400
                       transition-smooth duration-200 transform">
                         <CardContent
-                          className="flex flex-col aspect-square items-center justify-center p-6 space-y-3
+                          className="flex flex-col aspect-square items-center justify-center p-6 space-y-3 text-center
                         "
                         >
                           <img
